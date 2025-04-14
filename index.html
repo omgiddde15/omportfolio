@@ -5,14 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Om Gidde - Portfolio</title>
 
-  <!-- Link to CSS -->
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
-
-  <!-- FontAwesome (for social icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    .certificate-image {
+      max-width: 100%;
+      height: auto;
+      width: 300px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .full-description {
+      display: none;
+    }
+  </style>
 </head>
 <body>
 
@@ -35,22 +44,16 @@
 <!-- ====== PROFILE SECTION ====== -->
 <section id="profile" class="section">
   <div class="container profile">
-    <img src="IMG-20241101-WA0008 (1).jpg" alt="Profile Picture" class="profile-img" />
+    <img src="WhatsApp Image 2025-04-13 at 13.55.47_07cd5a4d.jpg" alt="Profile Picture" class="profile-img" />
     <div class="profile-info">
       <h2>Om Gidde</h2>
       <p>I am a passionate first-year ENTC engineering student at MIT Academy of Engineering, Alandi.</p>
       <p>I have a strong interest in programming, web development, circuit making, circuit designing, and electronics project creation. I am constantly exploring new technologies to expand my skill set. I am proficient in C, Python, CCS, and HTML and enjoy applying these skills to build innovative real-world solutions.</p>
       <p>Contact: <a href="mailto:shantaramgiddelala@gmail.com">shantaramgiddelala@gmail.com</a></p>
       <div class="social-links">
-        <a href="https://www.instagram.com/om_gidde15?igsh=MTF5eTJsbWRsOTI4eg==" target="_blank" class="social-link">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/om-gidde-660708357" target="_blank" class="social-link">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/om_gidde15" target="_blank" class="social-link">
-          <i class="fab fa-github"></i>
-        </a>
+        <a href="https://www.instagram.com/om_gidde15" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/om-gidde-660708357" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/om_gidde15" target="_blank"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </div>
@@ -88,6 +91,10 @@
         <h3>♟️ Playing Games (Especially Chess)</h3>
         <p>Sharpening my mind through strategic gameplay.</p>
       </div>
+      <div class="hobby-card">
+        <h3>🛣 Traveling</h3>
+        <p>Exploring new places and cultures.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -101,6 +108,11 @@
       <p>Created a personal portfolio website using HTML and CSS to showcase my skills and projects.</p>
       <a href="#" class="project-link">View Project</a>
     </div>
+    <div class="project">
+      <h3>Smart Cricket Stumps</h3>
+      <p>A project where stumps light up and make sound using buzzers when hit.</p>
+      <a href="https://www.tinkercad.com/things/f2dWngUCaMU-om-g" class="project-link">View Project</a>
+    </div>
   </div>
 </section>
 
@@ -109,24 +121,39 @@
   <h2>Achievements</h2>
   <div class="achievements-container">
     <div class="achievement">
-      <h3>Student Miscellaneous Award - 10th World Parliament of Science, Spirituality and Philosophy</h3>
+      <h3>Student Miscellaneous Award - 10th World Parliament</h3>
       <p class="short-description">Certificate of appreciation.</p>
       <button class="read-more">Read More</button>
-      <p class="full-description">
-        Held from 3rd to 5th October 2024 at MIT-ADT campus. I was selected as a distinguished student from my department to receive this recognition.
-      </p>
-      <a href="Screenshot 2025-03-22 162943.png" target="_blank">
-        <img src="Screenshot 2025-03-22 162943.png" alt="Certificate" class="certificate-image" />
-      </a>
+      <p class="full-description">Held from 3rd to 5th October 2024 at MIT-ADT campus. Selected as a distinguished student from my department.</p>
+      <img src="WhatsApp Image 2025-03-28 at 23.19.41_69a04dcb.jpg" alt="Certificate" class="certificate-image" />
     </div>
+
     <div class="achievement">
       <h3>Python Certification</h3>
-      <p class="short-description">Completed a certification course in Python from HackerRank.</p>
+      <p class="short-description">Completed certification from HackerRank and Coursera.</p>
       <button class="read-more">Read More</button>
-      <p class="full-description">
-        Completed a certification course from Coursera as well, covering data structures, algorithms, and OOP concepts in Python.
-      </p>
-      <a href="assets/python-certificate.pdf" target="_blank" class="achievement-link">View Certificate</a>
+      <p class="full-description">Covered data structures, algorithms, and OOP concepts in Python.</p>
+      <img src="Capture.JPG" alt="Certificate" class="certificate-image" >
+    </div>
+
+    <div class="achievement">
+      <h3>A.I Basics - HP LIFE</h3>
+      <p class="short-description">Completed A.I and ML fundamentals from HP LIFE.</p>
+      <button class="read-more">Read More</button>
+      <p class="full-description">Topics included LLM, ML, Data Science fundamentals.</p>
+      <img src="Capture2.JPG"alt="Certificate" class="certificate-image" ></a>
+    </div>
+
+    <div class="achievement">
+      <h3>Chess in School</h3>
+      <p class="short-description">Completed a chess training program in school.</p>
+      <img src="WhatsApp Image 2025-04-12 at 14.10.21_44c16a99.jpg" alt="Certificate" class="certificate-image" />
+    </div>
+
+    <div class="achievement">
+      <h3>Speak for India - District Level Participant</h3>
+      <p class="short-description">Represented college at district level.</p>
+      <img src="WhatsApp Image 2025-04-12 at 14.09.46_d93efa72.jpg" alt="Certificate" class="certificate-image" />
     </div>
   </div>
 </section>
@@ -136,22 +163,10 @@
   <div class="container">
     <h2>Academics</h2>
     <table class="academic-table">
-      <tr>
-        <th>Education Level</th>
-        <th>Percentage</th>
-      </tr>
-      <tr>
-        <td>10th Grade</td>
-        <td>85.20%</td>
-      </tr>
-      <tr>
-        <td>12th Grade</td>
-        <td>72%</td>
-      </tr>
-      <tr>
-        <td>MH-CET</td>
-        <td>95.38%</td>
-      </tr>
+      <tr><th>Education Level</th><th>Percentage</th></tr>
+      <tr><td>10th Grade</td><td>85.20%</td></tr>
+      <tr><td>12th Grade</td><td>72%</td></tr>
+      <tr><td>MH-CET</td><td>95.38%</td></tr>
     </table>
   </div>
 </section>
@@ -166,6 +181,21 @@
   <p>Instagram: <a href="https://www.instagram.com/om_gidde15" target="_blank">@om_gidde15</a></p>
 </section>
 
-<script src="script.js"></script>
+<!-- ====== WORKING JAVASCRIPT ====== -->
+<script>
+  document.querySelectorAll(".read-more").forEach(button => {
+    button.addEventListener("click", () => {
+      const fullText = button.nextElementSibling;
+      if (fullText.style.display === "block") {
+        fullText.style.display = "none";
+        button.textContent = "Read More";
+      } else {
+        fullText.style.display = "block";
+        button.textContent = "Read Less";
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
